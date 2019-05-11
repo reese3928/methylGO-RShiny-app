@@ -47,11 +47,11 @@ Citation
 ------------
 Ren, X., Kuan, P. (2018). methylGSA: a Bioconductor package and Shiny app for DNA methylation data length bias adjustment in gene set testing. Bioinformatics, bty892.    
 
-@article{ren2018methylgsa,
-title={methylGSA: a Bioconductor package and Shiny app for DNA methylation data length bias adjustment in gene set testing},
-author={Ren, Xu and Kuan, Pei Fen},
-journal={Bioinformatics},
-year={2018}
+@article{ren2018methylgsa,    
+title={methylGSA: a Bioconductor package and Shiny app for DNA methylation data length bias adjustment in gene set testing},    
+author={Ren, Xu and Kuan, Pei Fen},    
+journal={Bioinformatics},    
+year={2018}    
 }
 
 
