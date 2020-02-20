@@ -20,15 +20,13 @@ install.packages("shinycssloaders")
 Packages from Bioconductor:    
 If analyzing 450K array, `IlluminaHumanMethylation450kanno.ilmn12.hg19` needs to be installed.
 ```{r}
-if (!requireNamespace("BiocManager", quietly = TRUE))
-install.packages("BiocManager")
+if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
 BiocManager::install("IlluminaHumanMethylation450kanno.ilmn12.hg19")
 ```
-If analyzing EPIC array, `IlluminaHumanMethylationEPICanno.ilm10b2.hg19` needs to be installed.
+If analyzing EPIC array, `IlluminaHumanMethylationEPICanno.ilm10b4.hg19` needs to be installed.
 ```{r}
-if (!requireNamespace("BiocManager", quietly = TRUE))
-install.packages("BiocManager")
-BiocManager::install("IlluminaHumanMethylationEPICanno.ilm10b2.hg19")
+if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
+BiocManager::install("IlluminaHumanMethylationEPICanno.ilm10b4.hg19")
 ```
 
 Launch the app
@@ -41,19 +39,22 @@ methylGSA::runExample()
 
 Step-by-step instructions
 ------------
-A step-by-step instructions on the workflow of the app can be found [here](http://www.ams.sunysb.edu/%7Epfkuan/methylGSA/ShinyAppInstruction.html).
+A step-by-step instructions on the workflow of the app can be found [here](https://github.com/reese3928/methylGO-RShiny-app/blob/master/instructions.pdf).
 
 Citation
 ------------
-Ren, X., Kuan, P. (2018). methylGSA: a Bioconductor package and Shiny app for DNA methylation data length bias adjustment in gene set testing. Bioinformatics, bty892.    
+Ren, X., & Kuan, P. F. (2018). methylGSA: a Bioconductor package and Shiny app for DNA methylation data length bias adjustment in gene set testing. Bioinformatics, 35(11), 1958-1959.
 
 @article{ren2018methylgsa,    
 title={methylGSA: a Bioconductor package and Shiny app for DNA methylation data length bias adjustment in gene set testing},    
 author={Ren, Xu and Kuan, Pei Fen},    
 journal={Bioinformatics},    
-year={2018}    
+volume={35},    
+number={11},    
+pages={1958--1959},    
+year={2018},    
+publisher={Oxford University Press}    
 }
-
 
 
 
